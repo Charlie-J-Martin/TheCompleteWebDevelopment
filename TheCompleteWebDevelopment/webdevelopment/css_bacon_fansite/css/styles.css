@@ -1,0 +1,35 @@
+/* TAG SELECTORS */
+/* These are applied to all elements in the website*/
+body {
+  background-color: gold;
+}
+
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+/* this is referred to as a psuedoclass https://developer.mozilla.org/en-US/docs/Web/CSS/Reference */
+img:hover {
+  background-color: gold;
+}
+
+/* CLASS SELECTORS */
+/* these are applied to the specific class tags, a single class can be applied to multiple elements */
+.bacon {
+  background-color: green;
+}
+
+.apple {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/* ID SELECTORS */
+/* these are applied to specific id tags, a single id can only be used by a single element */
+#heading {
+  color: blue;
+}
