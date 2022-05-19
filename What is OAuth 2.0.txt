@@ -1,0 +1,17 @@
+OAuth - Open Authorization
+Allows third party services to exchange your information without you having to give your password away. 
+
+Why OAuth?
+1. Granular Access Levels
+	- You can request specific information. E.g. Email and Name.
+2. Read / Read/Write access
+	- Third party apps can write to facebook.
+3. Revoke Access 
+	- Users can choose not to give access to the third party website. E.g. If a user didn't want their information to be shared on the third party anymore they could use their facebook account to restrict access.
+
+Setting up OAuth
+1. Has to be set up in their developer console and we recieve an app ID.
+2. User logs into facebook option and then is transfer to facebook.
+3. Once they log in they need to review the permission that is being requested.
+4. Authorization code is then sent from Facebook to our site confirming that they have signed in.
+5. We can then create an access token which can be used to get lots of other useful information that could have been granted in step 3.
